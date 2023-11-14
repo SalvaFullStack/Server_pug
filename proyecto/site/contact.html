@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My web</title>
+
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/global.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mi página web servida con nodejs</h1>
+
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">¿Quiénes somos?</a></li>
+          <li><a href="/location">¿Donde estamos?</a></li>
+          <li><a href="/mission">¿Qué hacemos?</a></li>
+          <li><a href="/contact" class="active">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Escríbenos</h2>
+
+      <form action="#">
+        <ol>
+          <li>
+            <label for="name">Nombre</label><input id="name" type="text" />
+          </li>
+          <li>
+            <label for="email">Email</label><input id="email" type="email" />
+          </li>
+          <li>
+            <label for="message">Mensaje</label
+            ><textarea id="message"></textarea>
+          </li>
+          <li><button>Contacta</button></li>
+        </ol>
+      </form>
+    </main>
+  </body>
+</html>
